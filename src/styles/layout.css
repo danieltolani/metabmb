@@ -1,6 +1,8 @@
 .nav-section {
   position: sticky;
   padding: 2.7em 0;
+  max-width: 93%;
+  margin: 0 auto;
 }
 .nav-section .nav-links {
   display: flex;
@@ -20,13 +22,14 @@
   color: #434343;
   text-decoration: none;
 }
-.nav-section .nav-links .nav-rhs button.nav-button {
+.nav-section .nav-links .nav-rhs button.button {
   border: 0;
   padding: 1em 1.875em;
   font-size: 1rem;
   border-radius: 10px;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   color: #FFFFFF;
+  cursor: pointer;
 }
 .nav-section .nav-links .nav-rhs .menu-container {
   display: none;

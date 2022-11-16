@@ -3,6 +3,8 @@
 .nav-section{
     position: sticky;
     padding: 2.7em 0;
+    max-width: 93%;
+    margin: 0 auto;
 
     .nav-links{
         display: flex;
@@ -27,13 +29,14 @@
         }
         
         .nav-rhs{
-            button.nav-button{
+            button.button{
                 border: 0;
                 padding: 1em 1.875em;
                 font-size: 1rem;
                 border-radius: 10px;
                 background: $primary-color;
                 color: $text-light;
+                cursor: pointer;
             }
 
             .menu-container{

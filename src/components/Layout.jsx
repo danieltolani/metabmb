@@ -53,7 +53,7 @@ const Layout = () => {
             </div>
 
             <div className="nav-rhs">
-              <button className="nav-button">connect wallet</button>
+              <button className="button">connect wallet</button>
               <div className="menu-container">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none"><path stroke="#292D32" stroke-linecap="round" stroke-width="2" d="M4.5 10.5h27M4.5 18h27M4.5 25.5h27"/></svg>
               </div>

@@ -1,0 +1,58 @@
+@import 'utils';
+
+section.footer-section{
+    background-color: $footer-dark;
+  max-width: 100% !important;
+
+
+    .footer{
+        margin: 0 auto;
+        padding: 3.625em;
+
+        .footer-copyright{
+            display: flex;
+            margin-top: 2rem;
+
+            & > p{
+                margin-left: 0.5rem;
+            }
+        }
+        color: $text-light;
+
+        .footer-rows{
+            display: flex;
+            justify-content: space-between;
+
+            .footer-row-1{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .social-icons > svg:not(:last-child){
+                    margin-right: 2rem;
+                }
+
+                .social-icons > svg{
+                    cursor: pointer;
+
+                }
+            }
+
+            .footer-row{
+
+                & > h1 {
+                    margin-bottom: 1.5rem;
+                }
+
+                .footer-links{
+                    cursor: pointer;
+                    
+                    & > p:not(:last-child){
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+         
+        }
+    }
+}

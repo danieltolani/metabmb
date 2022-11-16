@@ -1,0 +1,61 @@
+section.nft-section {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  color: #FFFFFF;
+  height: 100vh !important;
+  max-width: 100% !important;
+}
+section.nft-section .nft {
+  max-width: 93%;
+  margin: 0 auto;
+  display: flex;
+  padding: 16.25em 0;
+}
+section.nft-section .nft .nft-rhs {
+  position: relative;
+  width: 100%;
+  transform: translateY(20px);
+}
+section.nft-section .nft .nft-rhs > img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  border-radius: 10px;
+}
+section.nft-section .nft .nft-rhs > img:nth-child(1) {
+  transform: rotate(-26.02deg);
+  z-index: 2;
+}
+section.nft-section .nft .nft-rhs > img:nth-child(2) {
+  transform: translateX(200px) translateY(-140px) rotate(17.76deg);
+  z-index: 1;
+}
+section.nft-section .nft .nft-rhs > img:nth-child(3) {
+  transform: translateX(270px) translateY(112px) rotate(-8.76deg);
+  z-index: 3;
+}
+section.nft-section .nft .nft-lhs {
+  margin-right: 7.625rem;
+}
+section.nft-section .nft .nft-lhs button.button {
+  border: 0;
+  padding: 1em 1.875em;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+section.nft-section .nft .nft-lhs .nft-lhs-copy {
+  margin-bottom: 3.75rem;
+}
+section.nft-section .nft .nft-lhs .nft-lhs-copy > h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+section.nft-section .nft .nft-lhs .nft-lhs-copy > p {
+  font-size: 1.125rem;
+  line-height: 35px;
+  width: 26rem;
+}
+
+/*# sourceMappingURL=nft.css.map */

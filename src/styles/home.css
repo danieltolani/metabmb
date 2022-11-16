@@ -6,6 +6,8 @@ section.home-section .hero-container {
   display: flex;
   width: 100%;
   align-items: center;
+  max-width: 93%;
+  margin: 0 auto;
   margin-bottom: 3.75rem;
 }
 section.home-section .hero-container .hero-left {

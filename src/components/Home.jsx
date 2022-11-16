@@ -2,6 +2,8 @@ import '../styles/home.css'
 import '../styles/inspiration.css'
 import Sponsors from './Sponsors';
 import Inspiration from './Inspiration';
+import Nft from './Nft';
+import Footer from './Footer';
 
 const Home = () => {
     return(
@@ -30,6 +32,8 @@ const Home = () => {
 
             <Sponsors />
             <Inspiration />
+            <Nft />
+            <Footer />
 
         </section>
     )

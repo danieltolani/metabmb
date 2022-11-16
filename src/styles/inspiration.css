@@ -53,6 +53,7 @@ section.inspiration-section .inspiration .card-details .card-rating > svg:not(:f
 
 .inspiration-wrapper {
   margin-top: 3.625rem;
+  margin-bottom: 3.375rem;
 }
 .inspiration-wrapper > h1 {
   font-size: 3rem;
@@ -61,7 +62,8 @@ section.inspiration-section .inspiration .card-details .card-rating > svg:not(:f
 }
 
 .inspiration-data-container {
-  width: 100%;
+  max-width: 93%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(292px, auto));
   gap: 1.5rem;

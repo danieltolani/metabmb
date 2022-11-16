@@ -1,0 +1,52 @@
+.nav-section {
+  position: sticky;
+  padding: 2.7em 0;
+}
+.nav-section .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-section .nav-links .brand-logo-2-container {
+  display: none;
+}
+.nav-section .nav-links .nav-routes-container {
+  display: flex;
+}
+.nav-section .nav-links .nav-routes-container .side-bar-link:not(:first-child) {
+  margin-left: 3em;
+}
+.nav-section .nav-links .nav-routes-container a.side-bar-link {
+  color: #434343;
+  text-decoration: none;
+}
+.nav-section .nav-links .nav-rhs button.nav-button {
+  border: 0;
+  padding: 1em 1.875em;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  color: #FFFFFF;
+}
+.nav-section .nav-links .nav-rhs .menu-container {
+  display: none;
+}
+
+@media screen and (max-width: 890px) {
+  .nav-section .nav-links .brand-logo {
+    display: block;
+  }
+  .nav-section .nav-links .nav-routes-container {
+    display: none;
+  }
+  .nav-section .nav-links .nav-rhs {
+    display: flex;
+    align-items: center;
+  }
+  .nav-section .nav-links .nav-rhs .menu-container {
+    margin-left: 1.5rem;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=layout.css.map */

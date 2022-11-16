@@ -1,0 +1,11 @@
+@import 'utils';
+
+section.sponsor-section{
+    border: 2px solid red;
+    background: $primary-color ;
+
+    .sponsors{
+        display: flex;
+        justify-content: space-around;
+    }
+}

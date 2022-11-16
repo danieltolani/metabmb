@@ -1,7 +1,6 @@
 section.home-section {
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
 }
 section.home-section .hero-container {
   display: flex;

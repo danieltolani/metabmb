@@ -1,5 +1,7 @@
 import '../styles/home.css'
+import '../styles/inspiration.css'
 import Sponsors from './Sponsors';
+import Inspiration from './Inspiration';
 
 const Home = () => {
     return(
@@ -27,6 +29,8 @@ const Home = () => {
             </div>
 
             <Sponsors />
+            <Inspiration />
+
         </section>
     )
 }

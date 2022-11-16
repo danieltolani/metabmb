@@ -1,0 +1,88 @@
+@import 'utils';
+
+section.inspiration-section{
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+
+    .inspiration{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1em;
+        cursor: pointer;
+        position: relative;
+
+        .card--star {
+            position: absolute;
+            top: 30px;
+            right: 34px;
+        }
+
+        & > img{
+            border-radius: 15px;
+        }
+
+        .card-details{
+            margin-top: 1rem;
+
+            .card-row-1{
+                display: flex;
+                justify-content: space-between;
+
+                & > h1{
+                    font-size: 0.75rem;
+                    font-weight: $font-weight-2;
+                }
+
+                & > p{
+                    font-size: 0.75rem;
+                    font-weight: $font-weight-3;
+                }
+            }
+
+            .card-row-2{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 0.625em;
+                margin-bottom: 0.625em;
+
+                & > h1{
+                    font-size: 0.75em;
+                    font-weight: $font-weight-2;
+                }
+
+                & > p{
+                    font-size: 0.875rem;
+                    font-weight: $font-weight-2;
+                }
+
+            }
+
+            .card-rating{
+                & > svg:not(:first-child){
+                    margin-left: 0.5em;
+                }
+            }
+        }
+    }
+}
+
+.inspiration-wrapper{
+    margin-top: 3.625rem;
+
+     & > h1{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+
+     }
+}
+
+.inspiration-data-container{
+    
+    width: 100%;
+    display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(292px, auto));
+    gap: 1.5rem;
+}

@@ -1,0 +1,70 @@
+section.inspiration-section {
+  border: 1px solid #D7D7D7;
+  border-radius: 15px;
+}
+section.inspiration-section .inspiration {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1em;
+  cursor: pointer;
+  position: relative;
+}
+section.inspiration-section .inspiration .card--star {
+  position: absolute;
+  top: 30px;
+  right: 34px;
+}
+section.inspiration-section .inspiration > img {
+  border-radius: 15px;
+}
+section.inspiration-section .inspiration .card-details {
+  margin-top: 1rem;
+}
+section.inspiration-section .inspiration .card-details .card-row-1 {
+  display: flex;
+  justify-content: space-between;
+}
+section.inspiration-section .inspiration .card-details .card-row-1 > h1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+section.inspiration-section .inspiration .card-details .card-row-1 > p {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+section.inspiration-section .inspiration .card-details .card-row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.625em;
+  margin-bottom: 0.625em;
+}
+section.inspiration-section .inspiration .card-details .card-row-2 > h1 {
+  font-size: 0.75em;
+  font-weight: 400;
+}
+section.inspiration-section .inspiration .card-details .card-row-2 > p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+section.inspiration-section .inspiration .card-details .card-rating > svg:not(:first-child) {
+  margin-left: 0.5em;
+}
+
+.inspiration-wrapper {
+  margin-top: 3.625rem;
+}
+.inspiration-wrapper > h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.inspiration-data-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(292px, auto));
+  gap: 1.5rem;
+}
+
+/*# sourceMappingURL=inspiration.css.map */
